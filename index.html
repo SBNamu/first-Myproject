@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <h1>first project</h1>
-    <p>sdfsdf111111</p>
-
+  <div class="mainPage">
+    <h1 class="titleName">数字あてゲーム</h1>
+    <div id="random-num-computer" class="comResultEnd"></div>
+    <div id="up-down" class="UpDownText">数字を入力（１～１００）</div>
+    <div id="chances-num" class="LifeNum">残りの命：5</div>
+    <input type="number" id="user-input"><p></p>
+    <button id="button-click">決定</button>
+    <button id="reset-button">リセット</button>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
